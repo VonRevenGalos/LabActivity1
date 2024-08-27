@@ -19,3 +19,11 @@ class Book.java {
        return isbn;
    }
    @Override
+   public String toString() {
+       return "Book{" +
+               "title='" + title + '\'' +
+               ", author='" + author + '\'' +
+               ", isbn='" + isbn + '\'' +
+               '}';
+   }
+}
